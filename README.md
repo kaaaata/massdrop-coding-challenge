@@ -4,5 +4,5 @@
 3. Create Postgres database (need Postgres): createdb massdrop-catherine-han  
   
 # API Usage Instructions:  
-1. Add new job to queue: POST "/enqueue/:url" (curl -X POST http://localhost:3001/enqueue/<URL>)  
-2. Check status of job: GET "/:id" (http://localhost:3001/<ID>)  
+1. Add new job to queue: POST "/enqueue/:url" (curl -X POST http://localhost:3001/enqueue/YOUR_URL)  
+2. Check status of job: GET "/:id" (http://localhost:3001/YOUR_JOB_ID)  
